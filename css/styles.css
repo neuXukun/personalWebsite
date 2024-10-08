@@ -321,7 +321,7 @@ footer a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #ff6f61;
     text-align: center;
 }
 
@@ -352,4 +352,48 @@ footer a:hover {
         width: 120px; /* 在小屏幕上调整头像大小 */
         height: 120px;
     }
+}
+
+
+.project-entry {
+    background-color: #fff; /* 白色背景 */
+    border-radius: 10px; /* 圆角 */
+    padding: 20px; /* 内边距 */
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    max-width: 900px; /* 限制最大宽度 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.project-text {
+    max-width: 600px;
+}
+
+.project-text h3 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.project-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
