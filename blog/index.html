@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,13 @@
 </head>
 <body>
     <header>
+        <div class="hero-section">
+            <img src="/personalWebsite/top-image.jpg" alt="Top Scenic Photo" class="hero-image">
+            <div class="hero-text">
+                <h1>Welcome to My Blog</h1>
+                <p>Photography, Skiing, Hiking, and More</p>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="/personalWebsite/">Home</a></li>
@@ -18,30 +25,50 @@
         </nav>
     </header>
 
-    <section id="blog">
-        <h1>Hobbies and Interests</h1>
-        <h2>My Hobbies</h2>
-        <p>In my spare time, I enjoy various activities that reflect my interests:</p>
-        <ul>
-            <li>Reading books, especially in the <span class="highlight">science fiction</span> and <span class="highlight">fantasy</span> genres.</li>
-            <li>Playing video games, with a particular interest in <span class="highlight">RPGs</span> and <span class="highlight">strategy games</span>.</li>
-            <li>Watching movies, especially <span class="highlight">thrillers</span> and <span class="highlight">documentaries</span>.</li>
-            <li>Engaging in outdoor activities like <span class="highlight">hiking</span> and <span class="highlight">cycling</span>.</li>
-            <li>Practicing <span class="highlight">photography</span> and capturing landscapes and candid moments.</li>
-        </ul>
+    <main>
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <p>I have a passion for photography, skiing, and hiking. Capturing the beauty of nature through my camera lens allows me to express my creativity and immerse myself in breathtaking scenery. I also enjoy outdoor adventures, from skiing down snowy slopes to hiking in majestic mountains. These activities provide a perfect escape from daily life, and they allow me to stay active while exploring new landscapes.</p>
+        </section>
 
-        <h2>Personal Blog Entry</h2>
-        <div class="blog-entry">
-            <h3>Exploring the Great Outdoors</h3>
-            <p><strong>Date:</strong> October 1, 2024</p>
-            <p>Last weekend, I went hiking in Rainer Mt. The fresh air and breathtaking views were rejuvenating.</p>
-            <p>I encountered various wildlife and enjoyed the serenity of nature.</p>
-            <p>It's moments like these that remind me of the importance of taking a break from our busy lives and connecting with nature.</p>
-        </div>
+        <section id="blog">
+            <h2>Blog Posts</h2>
 
-        <img src="/personalWebsite/pictures/hiking.jpg" alt="Hiking in Rainer Mt." class="blog-image"> <!-- Example Image -->
-    </section>
+            <div class="blog-entry">
+                <div class="blog-content">
+                    <img src="skiing.jpg" alt="Skiing" class="blog-image">
+                    <div class="blog-text">
+                        <h3>Skiing Adventure</h3>
+                        <p><strong>Date:</strong> October 5, 2024</p>
+                        <p>Last winter, I had an amazing skiing experience in the Alps. The snow was perfect, and the views were unforgettable!</p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="blog-entry">
+                <div class="blog-content">
+                    <img src="hiking.jpg" alt="Hiking" class="blog-image">
+                    <div class="blog-text">
+                        <h3>Hiking the Mountains</h3>
+                        <p><strong>Date:</strong> September 20, 2024</p>
+                        <p>Hiking through the Rocky Mountains was an incredible journey. The fresh air and breathtaking scenery left me in awe.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-entry">
+                <div class="blog-content">
+                    <img src="aurora.jpg" alt="Aurora" class="blog-image">
+                    <div class="blog-text">
+                        <h3>Chasing the Northern Lights</h3>
+                        <p><strong>Date:</strong> March 12, 2024</p>
+                        <p>I traveled to Norway to witness the Aurora Borealis. It was a once-in-a-lifetime experience to see the lights dancing in the sky.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+       
     <footer>
         <p>© 2024 Xukun Zhang. All rights reserved.</p>
         <p>Follow me on <a href="https://twitter.com" target="_blank">Twitter</a> | <a href="https://github.com" target="_blank">GitHub</a></p>
