@@ -1,10 +1,10 @@
 .project-entry {
     background-color: #fff;
-    border-radius: 10px; 
+    border-radius: 10px;
     padding: 20px;
     margin-bottom: 40px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 900px; 
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,4 +40,20 @@
 .project-text p {
     font-size: 16px;
     margin-bottom: 10px;
+}
+
+#projects {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #e3f2fd;
+}
+
+.project h2 {
+    margin: 0 0 10px 0;
+    color: #00796b;
+}
+
+.project p {
+    margin: 5px 0;
+    color: #333;
 }

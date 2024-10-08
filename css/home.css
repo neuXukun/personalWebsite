@@ -1,0 +1,62 @@
+#home {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ff6f61;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1); /* 悬停时图片放大 */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+}
+
+.highlight {
+    color: #ff6f61; /* 高亮显示的名字 */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* intro-text 样式 */
+.intro-text {
+    text-align: center; /* 居中对齐文本 */
+    margin-top: 20px; /* 上边距 */
+    padding: 20px; /* 内边距 */
+    background-color: #ffffff; /* 使用白色背景 */
+    border-radius: 10px; /* 圆角效果 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    max-width: 800px; /* 限制最大宽度 */
+    margin-left: auto; /* 左右外边距自动分配 */
+    margin-right: auto; /* 左右外边距自动分配 */
+}
+
+
+.intro-text h1 {
+    font-size: 36px; /* 主标题大小 */
+    color: #00796b; /* 主标题颜色 */
+    margin-bottom: 10px; /* 主标题下边距 */
+}
+
+.intro-text h2 {
+    font-size: 28px; /* 副标题大小 */
+    color: #00796b; /* 副标题颜色 */
+    margin-bottom: 15px; /* 副标题下边距 */
+}
+
+.intro-text p {
+    font-size: 18px; /* 段落字体大小 */
+    line-height: 1.6; /* 行高 */
+    color: #333; /* 段落字体颜色 */
+    margin-bottom: 15px; /* 段落下边距 */
+}
+
+.highlight {
+    color: #ff6f61; /* 高亮显示的文字颜色 */
+    font-weight: bold; /* 加粗字体 */
+}
