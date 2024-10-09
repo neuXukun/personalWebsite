@@ -113,19 +113,19 @@
 
     #hobbies,
     #blog {
-        padding: 20px;
+        padding: 15px;
         text-align: center;
     }
 
     .blog-entry {
         display: flex; 
-        margin-bottom: 20px; 
+        margin-bottom: 15px; 
+        max-width: 400px;
     }
 
     .blog-image {
-        width: 100px; 
-        height: auto; 
-        margin-right: 10px;
+        width: 60px; 
+        height: 60px; 
     }
 
     .blog-text {
