@@ -71,7 +71,7 @@
     height: 500px;
     overflow: hidden;
     margin-top: 120px;
-    z-index: 5;
+    z-index: 2;
 }
 
 .hero-image {
@@ -110,17 +110,19 @@
 
     .hero-image {
         max-width: 100%;
-        height: auto; 
+        height: 100%;
     }
 
     #hobbies,
     #blog {
         padding: 5px;
+        max-width: 100%;
         text-align: center;
     }
 
     .blog-entry {
         display: flex; 
+        max-width: 100%;
         margin-bottom: 15px; 
     }
 
@@ -131,7 +133,7 @@
 
     .blog-text {
         flex: 1; 
-        max-width: 60%;
+        max-width: 75%;
     }
 
     .hero-text h1 {
@@ -141,6 +143,19 @@
     
     .hero-text p {
         font-size: 18px;
+    }
+
+    .blog-content {
+        max-width: 100%;
+    }
+    
+    .hero-text {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        color: #ff6f61;
+        text-align: center;
     }
 }
 
@@ -177,6 +192,15 @@
     .blog-image {
         width: 80%;
         height: auto;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        color: #ff6f61;
+        text-align: center;
     }
 }
 
