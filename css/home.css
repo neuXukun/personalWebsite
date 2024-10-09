@@ -75,13 +75,3 @@
         width: 120px;
     }
 }
-
-@media (max-width: 480px) {
-    #home {
-        padding: 10px;
-    }
-
-    .profile-pic {
-        width: 100px;
-    }
-}

@@ -24,7 +24,7 @@
     height: auto;
     max-height: 150px;
     object-fit: cover;
-    margin-right: 60px;
+    margin-right: 80px;
     border-radius: 8px;
 }
 
@@ -67,6 +67,7 @@
     .project-image {
         width: 60px;
         height: auto;
+        margin-right: 20px;
     }
 
     .project-entry {
@@ -95,23 +96,5 @@
         width: 80%;
         height: auto;
         margin-bottom: 10px;
-    }
-}
-
-@media (min-width: 769px) {
-    #projects {
-        padding: 50px;
-    }
-
-    .project-entry {
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-    }
-
-    .project-image {
-        width: 150px;
-        height: auto;
-        margin-right: 20px;
     }
 }
