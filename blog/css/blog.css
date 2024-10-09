@@ -107,8 +107,8 @@
     }
 
     .hero-image {
-        height: 20%;
-        width: auto;
+        max-width: 100%;
+        height: auto; 
     }
 
     #hobbies,
@@ -120,7 +120,6 @@
     .blog-entry {
         display: flex; 
         margin-bottom: 15px; 
-        max-width: 400px;
     }
 
     .blog-image {
@@ -130,6 +129,7 @@
 
     .blog-text {
         flex: 1; 
+        max-width: 80%;
     }
 }
 
@@ -141,6 +141,15 @@
     .hero-image {
         width: 80%;
         height: auto;
+    }
+
+    .hero-text h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    
+    .hero-text p {
+        font-size: 18px;
     }
 
     #hobbies,
