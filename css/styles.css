@@ -62,13 +62,11 @@ nav ul li a:hover, nav ul li a.active {
 
 /* 页脚样式 */
 footer {
-    background: #f4f4f9; /* 淡灰色背景，与主体内容颜色相协调 */
-    color: #333; /* 深色文本 */
-    text-align: center;
-    padding: 20px 0; /* 内边距增加 */
-    border-top: 2px solid #ff6f61; /* 顶部边框 */
-    border-radius: 10px; /* 圆角效果 */
-    margin-top: 20px; /* 上方间距 */
+    display: grid; /* 使用网格布局 */
+    grid-template-columns: 1fr 1fr; /* 两列 */
+    padding: 20px;
+    background-color: #f4f4f9; /* 背景色 */
+    text-align: center; /* 文本居中 */
 }
 
 footer p {
@@ -84,5 +82,6 @@ footer a {
 }
 
 footer a:hover {
-    color: #ff4500; /* 悬停时颜色变化 */
+    color: #00796b; /* 悬停时链接颜色变化 */
+    text-decoration: underline; /* 悬停时添加下划线 */
 }
