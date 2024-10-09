@@ -106,15 +106,6 @@
 }
 
 @media (max-width: 480px) {
-    header .hero-section {
-        text-align: center;
-    }
-
-    .hero-image {
-        max-width: 100%;
-        height: 100%;
-    }
-
     #hobbies,
     #blog {
         padding: 5px;
@@ -124,9 +115,10 @@
 
     .blog-entry {
         margin-bottom: 20px;
-        max-width: 400px;
-        margin-left: 0px;
-        margin-right: 0px;
+        width: 100%; 
+        max-width: 100%; 
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .blog-image {
@@ -138,7 +130,7 @@
         flex: 1; 
         margin-left: 0px;
         margin-right: 0px;
-        max-width: 60%;
+        max-width: 80%;
     }
 
     .hero-text h1 {
@@ -151,6 +143,8 @@
     }
 
     .blog-content {
+        flex-direction: column;
+        align-items: center;
         max-width: 80%;
     }
     
