@@ -65,7 +65,7 @@
     }
 
     .project-image {
-        width: 100%;
+        width: 20px;
         height: auto;
     }
 
@@ -76,7 +76,7 @@
 
     .project-text {
         margin-left: 0;
-        margin-top: 10px; 
+        margin-top: 5px; 
     }
 }
 
