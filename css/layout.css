@@ -1,6 +1,5 @@
-/* 内容部分样式 */
 section {
-    padding: 100px 20px;  /* 导航栏下方留出空间 */
+    padding: 100px 20px;
     margin-top: 60px;
     background-color: #e3f2fd;
 }
@@ -11,12 +10,12 @@ h1 {
 }
 
 h2 {
-    color: #00796b; /* 深绿色副标题 */
+    color: #00796b;
     font-size: 28px;
 }
 
 h3 {
-    color: #00796b; /* 深绿色次级标题 */
+    color: #00796b;
     font-size: 24px;
 }
 
@@ -24,19 +23,4 @@ p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 20px;
-}
-
-/* 响应式设计 */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column; /* 在小屏幕上垂直排列 */
-    }
-
-    nav ul li a {
-        padding: 15px; /* 调整链接的内边距 */
-    }
-
-    section {
-        padding: 60px 20px; /* 调整页面内边距 */
-    }
 }

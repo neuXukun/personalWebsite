@@ -1,7 +1,7 @@
 #home {
     padding: 100px 20px;
     text-align: center;
-    background-color: #e3f2fd; /* 背景色淡蓝色 */
+    background-color: #e3f2fd;
 }
 
 #home .intro {
@@ -20,55 +20,68 @@
 }
 
 #home .profile-pic:hover {
-    transform: scale(1.1); /* 悬停时图片放大 */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 #home .highlight {
-    color: #ff6f61; /* 高亮显示的名字 */
+    color: #ff6f61;
     font-weight: bold;
     font-size: 20px;
 }
 
 .intro-text {
-    text-align: center; /* 居中对齐文本 */
-    margin-top: 20px; /* 上边距 */
-    padding: 20px; /* 内边距 */
-    background-color: #ffffff; /* 背景色为白色 */
-    border-radius: 10px; /* 圆角效果 */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    align-items: center; /* 垂直居中 */
+    align-items: center;
 }
 
-
 .intro-text h1 {
-    font-size: 36px; /* 主标题大小 */
-    color: #00796b; /* 主标题颜色 */
-    margin-bottom: 10px; /* 主标题下边距 */
+    font-size: 36px;
+    color: #00796b;
+    margin-bottom: 10px;
 }
 
 .intro-text h2 {
-    font-size: 28px; /* 副标题大小 */
-    color: #00796b; /* 副标题颜色 */
-    margin-bottom: 15px; /* 副标题下边距 */
+    font-size: 28px;
+    color: #00796b;
+    margin-bottom: 15px;
 }
 
 .intro-text p {
-    font-size: 18px; /* 段落字体大小 */
-    line-height: 1.6; /* 行高 */
-    color: #333; /* 段落字体颜色 */
-    margin-bottom: 15px; /* 段落下边距 */
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
 }
 
 .highlight {
-    color: #ff6f61; /* 高亮显示的文字颜色 */
-    font-weight: bold; /* 加粗字体 */
+    color: #ff6f61;
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
     #home {
-        padding: 50px 10px; /* 调整内边距 */
+        padding: 20px;
+    }
+
+    .profile-pic {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    #home {
+        padding: 10px;
+    }
+
+    .profile-pic {
+        width: 100px;
     }
 }
