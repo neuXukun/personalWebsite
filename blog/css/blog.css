@@ -117,9 +117,19 @@
         text-align: center;
     }
 
+    .blog-entry {
+        display: flex; 
+        margin-bottom: 20px; 
+    }
+
     .blog-image {
-        width: 100%;
-        height: auto;
+        width: 100px; 
+        height: auto; 
+        margin-right: 10px;
+    }
+
+    .blog-text {
+        flex: 1; 
     }
 }
 
