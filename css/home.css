@@ -1,9 +1,16 @@
 #home {
     padding: 100px 20px;
     text-align: center;
+    background-color: #e3f2fd; /* 背景色淡蓝色 */
 }
 
-.profile-pic {
+#home .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -12,12 +19,12 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.profile-pic:hover {
+#home .profile-pic:hover {
     transform: scale(1.1); /* 悬停时图片放大 */
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
 }
 
-.highlight {
+#home .highlight {
     color: #ff6f61; /* 高亮显示的名字 */
     font-weight: bold;
     font-size: 20px;
@@ -28,14 +35,10 @@
     text-align: center; /* 居中对齐文本 */
     margin-top: 20px; /* 上边距 */
     padding: 20px; /* 内边距 */
-    background-color: #ffffff; /* 使用白色背景 */
+    background-color: #e3f2fd; /* 淡蓝色背景 */
     border-radius: 10px; /* 圆角效果 */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
-    max-width: 800px; /* 限制最大宽度 */
-    margin-left: auto; /* 左右外边距自动分配 */
-    margin-right: auto; /* 左右外边距自动分配 */
 }
-
 
 .intro-text h1 {
     font-size: 36px; /* 主标题大小 */
