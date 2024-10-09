@@ -102,23 +102,3 @@
         margin-bottom: 20px; 
     }
 }
-
-@media (min-width: 769px) {
-    #contact {
-        padding: 50px;
-    }
-
-    .profile-pic {
-        width: 150px;
-    }
-
-    .contact-cards {
-        display: flex;
-        justify-content: space-between; 
-    }
-
-    .card {
-        width: 18%; 
-        margin-bottom: 20px; 
-    }
-}
